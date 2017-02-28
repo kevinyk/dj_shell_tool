@@ -25,7 +25,7 @@ function django_menu {
 	read -n1 -p ""
 	# if you want to automatically open the directory in, say atom:
 	# atom $my_dir/$project_input
-	sublime $my_dir/$project_input
+	# sublime $my_dir/$project_input
 	cd ../apps
 	printf "from django.conf.urls import url\nfrom . import views\nurlpatterns = [\n\turl(r'^$', views.index)\n]" > $app_input/urls.py
 	printf "#  Inside apps/first_app/views.py\nfrom django.shortcuts import render, HttpResponse\n# Create your views here.\ndef index(request):\n\treturn render(request, '$app_input/index.html')" > $app_input/views.py

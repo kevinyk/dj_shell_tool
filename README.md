@@ -35,4 +35,6 @@ This line declares to your computer what program should run this script. If you 
 
 After you copy this script, you need to set values to these variables. The values should be directories, `my_dir` points to the directory you want your generated django projects to go. `venv_dir` points to the virtual environment directory with your django specific pip installs.
 
-These are not strings! Don't try to use `.` as the directory, it might mess up the script's file pathing. Apologies.
+These are not strings! Shell scripting is very specific about spaces, so make sure you don't have any spaces between the `=` and the value.
+
+Don't try to use `.` as the directory, it might mess up the script's file pathing. Apologies.

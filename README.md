@@ -33,6 +33,6 @@ This line declares to your computer what program should run this script. If you 
 
 `venv_dir="blank"`
 
-After you copy this script, you need to set values to these variables. The values should be directories, `my_dir` points to the directory you want your generated django projects to go. `venv_dir` points to the virtual environment directory with your django specific pip installs.
+After you copy this script, you need to set values to these variables. The values should be directories, `my_dir` points to the directory you want your generated django projects to go. `venv_dir` points to the virtual environment directory with your django specific pip installs, including `/bin/activate`.
 
 These are not strings! Don't try to use `.` as the directory, it might mess up the script's file pathing. Apologies.

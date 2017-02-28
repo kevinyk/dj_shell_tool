@@ -36,6 +36,8 @@ This line declares to your computer what program should run this script. If you 
 
 After you copy this script, you need to set values to these variables. The values should be directories, `my_dir` points to the directory you want your generated django projects to go. `venv_dir` points to the virtual environment directory with your django specific pip installs, including `/bin/activate`.
 
-These are not strings! Shell scripting is very specific about spaces, so make sure you don't have any spaces between the `=` and the value.
+These are not strings! Shell scripting is very specific about spaces, so make sure you don't have any spaces between the `=` and the value. Make sure you define the directory using an absolute path, usually starting in `~` or `/`
 
 Don't try to use `.` as the directory, it might mess up the script's file pathing. Apologies.
+
+After you set up the script, start it with `source django_kt` or whatever path to that directory with the .sh file.

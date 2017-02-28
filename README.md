@@ -18,7 +18,7 @@ Important notes:
 
 	1. Modify `settings.py` to include the created app. shame on me. I have a comment in the script for where you could use an app shortcut like atom to open that directory for you.
 	2. Use multiple apps and namespacing
-	3. Stop the script if any steps cause an error. If you see one, just use `cmd + C` to quickly back out. You still might have a hollow shell of a django project, depending on where the error occured.
+	3. Stop the script if any steps cause an error. If you see one, just use `control + c` to quickly back out. You still might have a hollow shell of a django project, depending on where the error occured.
 	4. Cure serious diseases
 
 **A quick overview on how to use this script:**

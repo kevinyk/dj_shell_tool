@@ -1,5 +1,7 @@
 **A Shell Script For Django Boilerplate**
 
+Tested using Django (1.10.2), and Python 2.7.11 with a virtual environment
+
 Important notes:
 
 * This script was developed for iTerm and Terminal inside of Mac OS. Windows 10 has added support for a bash shell, but user beware, this script is untested in Windows computers. Please let me know of anything weird that happens.

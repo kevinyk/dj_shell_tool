@@ -18,7 +18,8 @@ Important notes:
 
 	1. Modify `settings.py` to include the created app. shame on me. I have a comment in the script for where you could use an app shortcut like atom to open that directory for you.
 	2. Use multiple apps and namespacing
-	3. Cure serious diseases
+	3. Stop the script if any steps cause an error. If you see one, just use `cmd + C` to quickly back out. You still might have a hollow shell of a django project, depending on where the error occured.
+	4. Cure serious diseases
 
 **A quick overview on how to use this script:**
 
@@ -33,7 +34,7 @@ This line declares to your computer what program should run this script. If you 
 
 `venv_dir="blank"`
 
-After you copy this script, you need to set values to these variables. The values should be directories, `my_dir` points to the directory you want your generated django projects to go. `venv_dir` points to the virtual environment directory with your django specific pip installs.
+After you copy this script, you need to set values to these variables. The values should be directories, `my_dir` points to the directory you want your generated django projects to go. `venv_dir` points to the virtual environment directory with your django specific pip installs, including `/bin/activate`.
 
 These are not strings! Shell scripting is very specific about spaces, so make sure you don't have any spaces between the `=` and the value.
 

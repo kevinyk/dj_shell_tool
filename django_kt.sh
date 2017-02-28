@@ -1,13 +1,13 @@
 #/Applications/Utilities/terminal.app
 my_dir="blank"
 venv_dir="blank"
+# example: venv_dir=~/Desktop/djangoEnv/bin/activate
 clear
 function django_menu {
 	echo -e "Enter the name of your django project: "
 	read -p "" project_input
 	echo -e ""
 	source $venv_dir
-	# source ~/Desktop/Coding/djangoEnv/bin/activate
 	cd $my_dir
 	django-admin startproject $project_input
 	cd $project_input
